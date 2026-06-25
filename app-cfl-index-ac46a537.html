@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>足彩网 · 信息指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #fafafa;
+            color: #222;
+            line-height: 1.7;
+            padding: 2.4rem 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        /* hero */
+        .hero {
+            margin-bottom: 3.8rem;
+            padding-top: 1.8rem;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 540;
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            color: #111;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 580px;
+        }
+
+        /* 通用 section */
+        section {
+            margin-bottom: 3.4rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 520;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 0.4rem;
+            color: #1a1a1a;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .highlight-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 1.8rem 2rem;
+            margin: 1.8rem 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02), 0 1px 3px rgba(0,0,0,0.03);
+        }
+
+        .highlight-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.4rem;
+            margin: 1.6rem 0;
+        }
+
+        .grid-item {
+            background: #fff;
+            padding: 1.2rem 1.4rem;
+            border-radius: 16px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+            border: 1px solid #f0f0f0;
+        }
+
+        .grid-item h3 {
+            font-size: 1.1rem;
+            font-weight: 520;
+            margin-bottom: 0.3rem;
+            color: #1f1f1f;
+        }
+
+        .grid-item p {
+            font-size: 0.95rem;
+            color: #4a4a4a;
+        }
+
+        /* FAQ 摘要 */
+        .faq-block {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 1.6rem 2rem;
+            border: 1px solid #efefef;
+        }
+
+        .faq-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid #f2f2f2;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 530;
+            margin-bottom: 0.15rem;
+            color: #111;
+        }
+
+        .faq-a {
+            color: #4b4b4b;
+            font-size: 0.97rem;
+        }
+
+        /* 底部链接 */
+        .footer-note {
+            margin-top: 3.2rem;
+            padding-top: 1.8rem;
+            text-align: center;
+            border-top: 1px solid #e2e2e2;
+            font-size: 0.95rem;
+            color: #6b6b6b;
+        }
+
+        .footer-note a {
+            color: #222;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            transition: border-color 0.2s;
+        }
+
+        .footer-note a:hover {
+            border-bottom-color: #222;
+        }
+
+        .inline-link {
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 1px solid #cacaca;
+            transition: border-color 0.15s;
+        }
+
+        .inline-link:hover {
+            border-bottom-color: #1a1a1a;
+        }
+
+        /* 响应式 */
+        @media (max-width: 540px) {
+            body {
+                padding: 1.8rem 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .highlight-card,
+            .faq-block {
+                padding: 1.4rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <!-- hero -->
+    <div class="hero">
+        <h1>足彩网 · 信息中枢</h1>
+        <div class="sub">辨明站点用途，快速判断它是否适合你。一份简明的功能与结构指引。</div>
+    </div>
+
+    <!-- 说明区：网站用途切入 -->
+    <section>
+        <p>当用户第一次打开一个网站，最关心的是：<strong>这个平台提供什么，我能否立刻理解它的核心</strong>。<a href="https://app-cfl.com" class="inline-link">足彩网</a> 是一个围绕足球赛事相关数据与参考信息整理而成的网络节点。页面结构清晰，不堆砌无效信息，专注于让访客在几秒内建立认知。</p>
+        <p>从首页布局可以观察到，内容被划分为几个逻辑区域，每个区域承载特定功能：快速导航、数据摘要、常见疑问。这种设计降低了初次使用的理解成本。</p>
+    </section>
+
+    <!-- 优势区: 卡片展示特点 -->
+    <section>
+        <h2>结构特点</h2>
+        <div class="grid-2">
+            <div class="grid-item">
+                <h3>直接的导航</h3>
+                <p>顶部入口明确，用户能直接定位到赛事、数据与参考板块，不需要多层跳转。</p>
+            </div>
+            <div class="grid-item">
+                <h3>信息区块化</h3>
+                <p>同类内容聚合在独立卡片内，视觉上留白充裕，阅读时不容易疲劳。</p>
+            </div>
+            <div class="grid-item">
+                <h3>轻量级呈现</h3>
+                <p>摒弃复杂动效和广告干扰，文本与数据优先，适合快速浏览与比对。</p>
+            </div>
+            <div class="grid-item">
+                <h3>渐进式输出</h3>
+                <p>从概括到细节层层递进，符合从了解到判断的自然流程。</p>
+            </div>
+        </div>
+
+        <div class="highlight-card">
+            <p><strong>使用场景举例：</strong> 赛前查阅对阵数据、对比近期表现、了解基础规则说明。平台不制造倾向性结论，而是提供可自行判断的材料。</p>
+        </div>
+    </section>
+
+    <!-- 说明区 承接 -->
+    <section>
+        <h2>信息取向</h2>
+        <p>网站内容偏向知识型整理，不渲染情绪，也不作承诺性表述。每一部分都在尝试回答“这个数据代表什么”而不是“你应该怎么做”。这种风格让使用者能保持独立思考。</p>
+        <p>如果你正在寻找一个能快速识别用途、数据源相对清晰的足球信息站点，<a href="https://app-cfl.com" class="inline-link">足彩网</a> 的结构值得花五分钟浏览。它的首页本身就是一份导航索引。</p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+        <h2>常见疑问摘要</h2>
+        <div class="faq-block">
+            <div class="faq-item">
+                <div class="faq-q">这个网站主要提供什么？</div>
+                <div class="faq-a">足球赛事相关的参考数据、对阵信息以及结构性指引，帮助用户快速了解网站内容分布。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">需要注册才能浏览吗？</div>
+                <div class="faq-a">首页及大部分信息区域无需登录即可访问，具体板块可能需要查看页面说明。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">数据更新频率如何？</div>
+                <div class="faq-a">数据跟随赛事进程更新，具体时效性可在相关页面内留意标注。</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">是否包含分析建议？</div>
+                <div class="faq-a">呈现客观数据与参考信息，不提供带有倾向性的分析结论或投资建议。</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <div class="footer-note">
+        <p>了解更多，可浏览 <a href="https://app-cfl.com">足彩网</a> · 信息索引页仅做结构展示</p>
+        <p style="margin-top:0.6rem; font-size:0.85rem; color:#8a8a8a;">&copy; 站点说明 · 内容偏重知识梳理</p>
+    </div>
+
+</div>
+</body>
+</html>
